@@ -1,0 +1,257 @@
+/*Header*/
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/men2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: system-ui;
+    overflow: hidden;
+}
+
+.headerColor{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+.headerColor{
+    text-align: center;
+}
+
+.headerColor h2{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.headerColor h2 font{
+    font-size: 55px;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #6600ff,#fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.headerColor h3{
+    font-family: system-ui;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.headerColor .btn-default{
+    padding: 13px 30px;
+    border-radius: 200px;
+    margin: 10px 0px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(to right, #6600ff,#fff);
+    transition: .5s;
+}
+
+.headerColor .btn-default:hover{
+    background-image: linear-gradient(to left, #6600ff,#fff);
+    transition: .5s;
+}
+
+.headerColor h5{
+    color: #fff;
+    font-weight: 600;
+}
+
+.headerColor .fa-facebook,
+.headerColor .fa-instagram,
+.headerColor .fa-twitter{
+    width: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #6600ff; 
+    border-radius: 50%;
+}
+
+.headerColor h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Header End*/
+
+/*Navbar*/
+
+.navbar{
+    border: 0px;
+    border-radius: 0px;
+    background: rgba(0,0,0,.5);
+}
+
+.navbar-header .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-brand a{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background: rgba(0,0,0,0);
+    border: 4px solid rgba(0,0,0,0);
+}
+
+.navbar-nav li a:hover{
+    background: rgba(0,0,0,0);
+    border: 4px solid #6600ff;
+    transition: .5s;
+}
+
+.nav.navbar-nav>li>a:hover,
+.nav.navbar-nav>li.active>a{
+    background: rgba(0,0,0,0);
+    border: 4px solid #6600ff;
+}
+
+/*Navbar End*/
+
+
+/*About*/
+
+.about{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about h1{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+    color: #fff;
+    background-color: #6600ff;
+    padding: 8px 10px;
+}
+
+.aboutPart1{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.aboutPart1 h2{
+    margin: 0px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.aboutPart1 h5{
+    font-weight: 600;
+    font-style: italic;
+    font-family: system-ui;
+    padding-bottom: 20px;
+}
+
+.aboutPart1 p{
+    font-family: system-ui;
+    text-align: justify;
+}
+
+.aboutPart1 .btn-default{
+    margin-top: 50px;
+    border-radius: 0px;
+    background-color: #6600ff;
+    color: #fff;
+    border: 0px;
+    font-weight: 500;
+    font-family: system-ui;
+    padding: 8px 20px;
+    width: 160px;
+    overflow: hidden;
+}
+
+.aboutPart1 .glyphicon-menu-right{
+    font-size: 12px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.aboutPart1 .btn-default:hover .glyphicon-menu-right{
+    padding-left: 5px;
+    transition: .5s;
+}
+
+.aboutPart1 a{
+    text-decoration: none;
+}
+
+.aboutPart2{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 0px 20px 10px rgba(0,0,0,.1);
+    overflow: auto;
+    background-color: #fff;
+}
+
+.aboutPart2 img{
+    width: 100%;
+}
+
+.aboutPart3{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.aboutPart3 h2{
+    margin: 0px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.aboutPart3 .progress{
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 0px;
+    height: 15px;
+    background-color: #f2f2f2;
+}
+
+.aboutPart3 .progress-bar{
+    border-radius: 100px;
+    background-color: #6600ff;
+}
+
+.aboutPart3 p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.aboutPart3 p font{
+    float: right;
+}
+
+/*About End*/
+
